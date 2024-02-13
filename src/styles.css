@@ -1,0 +1,71 @@
+@font-face {
+font-family: 'Raleway-Medium';
+  src: url("assets/fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url("assets/fonts/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url("assets/fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: url("assets/fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'Ogirema';
+  src: url("assets/fonts/Ogirema.ttf");
+}
+@font-face {
+  font-family: "OgiremaBold";
+  src: url("assets/fonts/OgiremaBold.ttf");
+}
+@font-face {
+  font-family: "OgiremaItalic";
+  src: url("assets/fonts/OgiremaItalic.ttf");
+}
+*{
+  font-family: 'Raleway-Regular', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.font-section{
+  font-family: 'Raleway-Bold', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+.font-menu{
+  font-family: 'Ogirema', serif;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+}
+.font-title{
+  font-family: 'Raleway-Medium', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+body{
+  overflow-x: hidden;
+}
+@media screen and (min-width: 1600px) and (max-width:1900px) {
+  .font-menu{
+    font-size: 18px !important;
+  }
+}
